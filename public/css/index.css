@@ -94,3 +94,8 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: 2d1b36;
 }
+.others:hover{
+
+    background-color: #2d1b36;
+    color: azure;
+}
