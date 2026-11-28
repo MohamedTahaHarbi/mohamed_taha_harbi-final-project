@@ -56,63 +56,74 @@
 
     </div>
 </header>
-<section class="bg-[#2d1b36] w-[100vw] h-[130vh] flex flex-col justify-around">
-     <div class="bg-[#2d1b36] w-[100vw] h-[85vh] flex">
-    <div id="left" class="w-[55vw] h-[80vh] flex flex-col gap-8 justify-center pl-15 ">
 
-        <div class="w-[28.5vw] h-[5vh] bg-[#44334a] flex flex-row justify-center items-center gap-2 rounded-[25px] outline-1 outline-orange-500">
-            <svg class="text-orange-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
-  <circle cx="8" cy="8" r="8"/>
-</svg>
-         <h1 class="text-white font-medium">2026 Regional Institutional Accountability Monitor</h1>
+<section class="bg-[#2d1b36] w-full min-h-screen flex flex-col justify-around py-12 md:py-16 lg:py-10 gap-10 overflow-hidden">
+
+    <div class="bg-[#2d1b36] w-full min-h-[85vh] flex flex-col lg:flex-row">
+
+        <div id="left" class="w-full lg:w-[55%] min-h-[65vh] lg:h-[80vh] flex flex-col gap-6 md:gap-8 justify-center px-6 sm:px-10 lg:pl-15 lg:pr-6 py-10">
+
+            <div class="w-fit max-w-full min-h-[45px] px-4 py-2 bg-[#44334a] flex flex-row justify-center items-center gap-2 rounded-[25px] outline-1 outline-orange-500">
+                <svg class="text-orange-500 shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8"/>
+                </svg>
+                <h1 class="text-white font-medium text-xs sm:text-sm md:text-base">2026 Regional Institutional Accountability Monitor</h1>
+            </div>
+
+            <div class="w-full lg:w-[50vw] flex flex-col justify-center gap-6 md:gap-10">
+
+                <h1 class="text-white text-4xl sm:text-5xl lg:text-6xl font-serif leading-tight">
+                    Supporting Institutional Accountability.
+                    <span class="text-orange-500 font-extrabold font-serif">Amplifying</span>
+                    Women's Voices.
+                </h1>
+
+                <h2 class="text-white text-lg sm:text-xl lg:text-2xl font-extralight leading-relaxed">
+                    An independent civic observatory auditing how courts, ministries, and regional institutions uphold women's rights—paired with encrypted reporting, legal tools, and a protected community for collective action.
+                </h2>
+
+            </div>
+
         </div>
 
-        <div class=" w-[50vw] h-[40vh] flex flex-col justify-center gap-10">
-        <h1 class="text-white text-6xl font-serif">Supporting Institutional Accountability. <span class="text-orange-500 font-extrabold font-serif">Amplifying</span> Women's Voices.</h1>
-        <h2 class="text-white text-2xl font-extralight">An independent civic observatory auditing how courts, ministries, and regional institutions uphold women's rights—paired with encrypted reporting, legal tools, and a protected community for collective action.</h2>
+        <div id="right" class="w-full lg:w-[45%] min-h-[40vh] lg:h-[80vh] flex items-center justify-center lg:justify-start px-6 sm:px-10 lg:pl-5 pb-10 lg:pb-0">
+
+            <img class="rounded-[25px] w-full sm:w-[85%] lg:w-[40vw] h-[35vh] sm:h-[45vh] lg:h-[60vh] object-cover" src="/public/images/img1.png" alt="">
 
         </div>
 
     </div>
 
-    <div id="right" class="w-[45vw] h-[80vh] flex items-center pl-5 ">
+    <div class="w-[85%] h-px bg-gray-600 self-center"></div>
 
-        <img class="rounded-[25px] w-[40vw] h-[60vh]" src="/public/images/img1.png" alt="">
-    </div>
-    </div>
-  
-    <div class="w-[80vw] h-[0.1vh] bg-gray-600 self-center "> </div>
+    <div class="w-full px-6 sm:px-10 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6 justify-items-center">
 
-    <div class="w-[99vw] h-[30vh] flex justify-around">
-
-        <div class="w-[20vw] h-[20vh] bg-[#382740] rounded-[25px] flex flex-col justify-center pl-7 gap-2">
-         <h1 class="text-5xl text-white font-serif">42</h1>
-         <h1 class="text-gray-400">Public Institutions Monitored</h1>
-        </div>
-        
-        <div class="w-[20vw] h-[20vh] bg-[#382740] rounded-[25px] flex flex-col justify-center pl-7  gap-2">
-         <h1 class="text-5xl text-orange-500 font-serif">184</h1>
-         <h1 class="text-gray-400">Legal Frameworks Indexed</h1>
+        <div class="w-full max-w-[400px] min-h-[150px] sm:min-h-[180px] bg-[#382740] rounded-[25px] flex flex-col justify-center px-7 gap-2">
+            <h1 class="text-4xl sm:text-5xl text-white font-serif">42</h1>
+            <h1 class="text-sm sm:text-base text-gray-400">Public Institutions Monitored</h1>
         </div>
 
-        
-        <div class="w-[20vw] h-[20vh] bg-[#382740] rounded-[25px] flex flex-col justify-center pl-7  gap-2">
-         <h1 class="text-5xl font-serif text-white">1,294</h1>
-         <h1 class="text-gray-400">Anonymous Reports Logged</h1>
+        <div class="w-full max-w-[400px] min-h-[150px] sm:min-h-[180px] bg-[#382740] rounded-[25px] flex flex-col justify-center px-7 gap-2">
+            <h1 class="text-4xl sm:text-5xl text-orange-500 font-serif">184</h1>
+            <h1 class="text-sm sm:text-base text-gray-400">Legal Frameworks Indexed</h1>
         </div>
 
-        
-        <div class="w-[20vw] h-[20vh] bg-[#382740] rounded-[25px] flex flex-col justify-center pl-7  gap-2">
-         <h1 class="text-5xl text-green-400 font-serif">89%</h1>
-         <h1 class="text-gray-400">Legal Resource Accessibility</h1>
+        <div class="w-full max-w-[400px] min-h-[150px] sm:min-h-[180px] bg-[#382740] rounded-[25px] flex flex-col justify-center px-7 gap-2">
+            <h1 class="text-4xl sm:text-5xl font-serif text-white">1,294</h1>
+            <h1 class="text-sm sm:text-base text-gray-400">Anonymous Reports Logged</h1>
         </div>
 
-
+        <div class="w-full max-w-[400px] min-h-[150px] sm:min-h-[180px] bg-[#382740] rounded-[25px] flex flex-col justify-center px-7 gap-2">
+            <h1 class="text-4xl sm:text-5xl text-green-400 font-serif">89%</h1>
+            <h1 class="text-sm sm:text-base text-gray-400">Legal Resource Accessibility</h1>
+        </div>
 
     </div>
+
 </section>
-<section class="w-[99vw] h-[250vh] bg-amber-50 flex flex-col gap-20">
-   <section class="flex">
+
+<section class="w-[99vw] h-[250vh] bg-amber-50 flex flex-col gap-20 max-sm:pt-15 ">
+   <section class="flex max-sm:flex-col">
     <div class="w-[50vw] h-[50vh]  flex flex-col justify-center gap-3 pl-30 pt-5">
         <h1 class="text-orange-500 font-semibold">Accountability index</h1>
         <h1 class="text-5xl font-serif">Regional & Institutional Accountability Dashboard</h1>
@@ -121,7 +132,7 @@
 
     <div class="w-[50vw] h-[50vh]  pt-55 pl-40">
 
-     <div class="w-[27vw] h-[10vh] bg-white rounded-[20px] outline-1 outline-gray-300 flex items-center gap-2 pl-3">
+     <div class="w-[27vw] h-[10vh] bg-white rounded-[20px] outline-1 outline-gray-300 flex items-center gap-2 pl-3 max-sm:w-[70vw]">
        <label  for="regions"> <h1>filter region:</h1></label>
              <select class="outline-2 outline-gray-200 rounded-[20px] capitalize hover:outline-orange-500 " name="regions" id="regions">
                <option value="all monotoried regions">all monotoried regions</option>
@@ -244,11 +255,11 @@
     </div>
 
 
-    <section class="w-[80vw] h-[100vh] bg-amber-400 flex flex-col  self-center ">
+    <section class="w-[80vw] h-[100vh] flex flex-col  self-center  ">
 
-    <div class="w-[80vw] h-[18vh] bg-white flex gap-5 ">
+    <div class="w-[80vw] h-[18vh] bg-white flex gap-5 rounded-t-[25px]  ">
 
-     <div class="w-[45vw] h-[18vh] flex flex-col justify-center gap-1 pl-7 ">
+     <div class="w-[45vw] h-[18vh] flex flex-col justify-center gap-1 pl-7  ">
         <h1 class="text-2xl font-bold font-serif">Institutional Accountability Scorecard</h1>
         <h2 class="font-light capitalize">Click any audited institution to inspect compliance findings, unresolved complaints, and reform mandates.</h2>
      </div>
@@ -363,7 +374,7 @@
     </div>
    
     
-    <div class="w-[80vw] h-[12vh] bg-white flex ">
+    <div class="w-[80vw] h-[12vh] bg-white flex rounded-b-[25px]">
         <div class="w-[17vw] h-[12vh] flex items-center pl-5 text-gray-600">
             <h1>Public Service Commission & Equal Opportunity Board</h1>
         </div>
@@ -476,6 +487,8 @@
       </div>
     </div>
 </footer>
+
+
   
 
 
